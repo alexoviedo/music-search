@@ -1,0 +1,50 @@
+body {
+  background-color: lightGrey;
+  font-family: sans-serif;
+  margin: 0 10%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#inputBox {
+  width: 650px;
+  height: 30px;
+  font-size: 15px;
+  margin: 30px 10px 20px 15%;
+}
+
+.pic {
+  width: 80%;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+
+#audio {
+  height: 30px;
+  width: 800px;
+  margin: 10px auto -15px 15%;
+  padding: 0%;
+}
+
+#artistSong {
+  margin: 15px 12% 5px 12%;
+  padding-bottom: 20px;
+  border-bottom: solid darkGrey;
+}
+
+button {
+  height: 38px;
+  width: 150px;
+  border: solid darkgrey 2px;
+  border-radius: 5px;
+}
+
+#submit {
+  font-size: 20px;
+}
